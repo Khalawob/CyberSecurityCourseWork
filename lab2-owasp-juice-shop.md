@@ -12,6 +12,9 @@ Owasp Juice shop is a web application designed to be insecure and is used for pr
 
 Figure 27 - Find Carefully Hidden Scoreboard
 
+![Figure 27 - Find Carefully Hidden Scoreboard](assets/lab2-owasp-juice-shop/figure-027-find-carefully-hidden-scoreboard.png)
+
+
 
 
 ### Step 1: Go on inspect, click on the sources tab, select main.js and type in “path” one of the results should be the score-board
@@ -19,6 +22,9 @@ Figure 27 - Find Carefully Hidden Scoreboard
 
 
 Figure 28- Path Found for Scoreboard
+
+![Figure 28- Path Found for Scoreboard](assets/lab2-owasp-juice-shop/figure-028-path-found-for-scoreboard.png)
+
 
 
 
@@ -28,11 +34,17 @@ Figure 28- Path Found for Scoreboard
 
 Figure 29 - URL Contains "Score-board"
 
+![Figure 29 - URL Contains "Score-board"](assets/lab2-owasp-juice-shop/figure-029-url-contains-score-board.png)
+
+
 
 
 
 
 Figure 30 - Challenge Completed
+
+![Figure 30 - Challenge Completed](assets/lab2-owasp-juice-shop/figure-030-challenge-completed.png)
+
 
 
 
@@ -50,11 +62,17 @@ Figure 30 - Challenge Completed
 
 Figure 31 - Create New Admin User Challenge (3 Star)
 
+![Figure 31 - Create New Admin User Challenge (3 Star)](assets/lab2-owasp-juice-shop/figure-031-create-new-admin-user-challenge-3-star.png)
+
+
 ### Step 1: Create new user on the Register page
 
 
 
 Figure 32 - Registering an New User
+
+![Figure 32 - Registering an New User](assets/lab2-owasp-juice-shop/figure-032-registering-an-new-user.png)
+
 
 
 
@@ -63,6 +81,9 @@ Figure 32 - Registering an New User
 
 
 Figure 33 - Burpsuite Got the details we Entered
+
+![Figure 33 - Burpsuite Got the details we Entered](assets/lab2-owasp-juice-shop/figure-033-burpsuite-got-the-details-we-entered.png)
+
 
 
 
@@ -74,6 +95,9 @@ Copy request to repeater, change the email and add a field called “role”. In
 
 Figure 34 - "Role: admin" has been added
 
+![Figure 34 - "Role: admin" has been added](assets/lab2-owasp-juice-shop/figure-034-role-admin-has-been-added.png)
+
+
 
 
 ### Step 4: Once “Repeat” is pressed, your new account should be updated to admin because we changed the role from “customer” to “Admin”
@@ -81,6 +105,9 @@ Figure 34 - "Role: admin" has been added
 
 
 Figure 35 - New User has the role "Admin
+
+![Figure 35 - New User has the role "Admin](assets/lab2-owasp-juice-shop/figure-035-new-user-has-the-role-admin.png)
+
 
 
 
@@ -90,11 +117,17 @@ Figure 35 - New User has the role "Admin
 
 Figure 36 - Challenge 2 Completed
 
+![Figure 36 - Challenge 2 Completed](assets/lab2-owasp-juice-shop/figure-036-challenge-2-completed.png)
+
+
 
 
 
 
 Figure 37 - New Admin User "brianadmin@roehampton.com" has been created
+
+![Figure 37 - New Admin User "brianadmin@roehampton.com" has been created](assets/lab2-owasp-juice-shop/figure-037-new-admin-user-brianadmin-roehampton-com-has-been-created.png)
+
 
 ## Exercise 2 CIA Triad Impact
 
@@ -109,6 +142,9 @@ Figure 37 - New Admin User "brianadmin@roehampton.com" has been created
 
 
 Figure 38 - Acess Admin Challenge Completed
+
+![Figure 38 - Acess Admin Challenge Completed](assets/lab2-owasp-juice-shop/figure-038-acess-admin-challenge-completed.png)
+
 
 
 
@@ -126,6 +162,9 @@ Figure 38 - Acess Admin Challenge Completed
 
 Figure 39 - Challenge 4: View Another Users Basket
 
+![Figure 39 - Challenge 4: View Another Users Basket](assets/lab2-owasp-juice-shop/figure-039-challenge-4-view-another-users-basket.png)
+
+
 
 
 ### Step 1: Login to an account, go to the basket page and open up session tab with the inspect tab open.
@@ -133,6 +172,9 @@ Figure 39 - Challenge 4: View Another Users Basket
 
 
 Figure 40 - Inspect Tab open with the Basket ID
+
+![Figure 40 - Inspect Tab open with the Basket ID](assets/lab2-owasp-juice-shop/figure-040-inspect-tab-open-with-the-basket-id.png)
+
 
 
 
@@ -142,6 +184,9 @@ Figure 40 - Inspect Tab open with the Basket ID
 
 Figure 41 - Basket ID Changed to "2"
 
+![Figure 41 - Basket ID Changed to "2"](assets/lab2-owasp-juice-shop/figure-041-basket-id-changed-to-2.png)
+
+
 
 
 ### Output (This shows another customers purchase details which consists of 2 orders of raspberry juice. The limitation of this is that it does not give more details such as the user who ordered it which if it did then a hacker could have made phishing page and send an email to the user explaining that something is wrong with their order.)
@@ -150,6 +195,9 @@ Figure 41 - Basket ID Changed to "2"
 
 Figure 42 - Challenge completed and someone else’s basket is displayed
 
+![Figure 42 - Challenge completed and someone else’s basket is displayed](assets/lab2-owasp-juice-shop/figure-042-challenge-completed-and-someone-else-s-basket-is-displayed.png)
+
+
 
 
 ### Output (This shows another customer’s purchase detail with BasketID 5)
@@ -157,6 +205,9 @@ Figure 42 - Challenge completed and someone else’s basket is displayed
 
 
 Figure 117 - BasketID 5 purchase details from another customer account
+
+![Figure 117 - BasketID 5 purchase details from another customer account](assets/lab2-owasp-juice-shop/figure-117-basketid-5-purchase-details-from-another-customer-account.png)
+
 
 
 
@@ -178,6 +229,9 @@ Figure 117 - BasketID 5 purchase details from another customer account
 
 Figure 43 - Challenge 5: Login As Admin
 
+![Figure 43 - Challenge 5: Login As Admin](assets/lab2-owasp-juice-shop/figure-043-challenge-5-login-as-admin.png)
+
+
 
 
 ### Step 1:
@@ -192,11 +246,17 @@ Attempt to login as a admin by guessing the email and password once
 
 Figure 44 - Unsuccessful log in using "admin user"
 
+![Figure 44 - Unsuccessful log in using "admin user"](assets/lab2-owasp-juice-shop/figure-044-unsuccessful-log-in-using-admin-user.png)
+
+
 ### Step 2: Ensure the login request is received by burpsuite and send it to repeater.
 
 
 
 Figure 45 - Username and password recorded
+
+![Figure 45 - Username and password recorded](assets/lab2-owasp-juice-shop/figure-045-username-and-password-recorded.png)
+
 
 
 
@@ -206,6 +266,9 @@ Figure 45 - Username and password recorded
 
 Figure 46- Sql Injection in the Repeater
 
+![Figure 46- Sql Injection in the Repeater](assets/lab2-owasp-juice-shop/figure-046-sql-injection-in-the-repeater.png)
+
+
 
 
 ### Output of the sql Injection with a generated authentication token, basket id and email  showing that we have been granted access and Proof of Completion.
@@ -213,6 +276,9 @@ Figure 46- Sql Injection in the Repeater
 
 
 Figure 47 - Successful Authentication and Token Recieved
+
+![Figure 47 - Successful Authentication and Token Recieved](assets/lab2-owasp-juice-shop/figure-047-successful-authentication-and-token-recieved.png)
+
 
 	
 
@@ -230,6 +296,9 @@ Figure 47 - Successful Authentication and Token Recieved
 
 Figure 48 - Challenge 6: Provoke an Error that is not Handled Gracefully
 
+![Figure 48 - Challenge 6: Provoke an Error that is not Handled Gracefully](assets/lab2-owasp-juice-shop/figure-048-challenge-6-provoke-an-error-that-is-not-handled-gracefully.png)
+
+
 
 
 ### Step 1:
@@ -240,6 +309,9 @@ As a logged in user that you have created, Try and go to the profile page by cli
 
 Figure 49 - Profile Icon
 
+![Figure 49 - Profile Icon](assets/lab2-owasp-juice-shop/figure-049-profile-icon.png)
+
+
 
 
 ### Step 2: This page should come up showing that the request was not handled gracefully thus completing the challenge
@@ -248,6 +320,9 @@ Figure 49 - Profile Icon
 
 Figure 50 - Unhandled error and it shows the Programming language being used
 
+![Figure 50 - Unhandled error and it shows the Programming language being used](assets/lab2-owasp-juice-shop/figure-050-unhandled-error-and-it-shows-the-programming-language-being-used.png)
+
+
 
 
 ### Proof of completion
@@ -255,6 +330,9 @@ Figure 50 - Unhandled error and it shows the Programming language being used
 
 
 Figure 51 - Challenge Completed
+
+![Figure 51 - Challenge Completed](assets/lab2-owasp-juice-shop/figure-051-challenge-completed.png)
+
 
 
 
@@ -274,6 +352,9 @@ Figure 51 - Challenge Completed
 
 Figure 52 - Challenge 7: Login Bender
 
+![Figure 52 - Challenge 7: Login Bender](assets/lab2-owasp-juice-shop/figure-052-challenge-7-login-bender.png)
+
+
 
 
 ### Step 1: Go to the product page and look through the reviews of all products to find a review left by benders email address.
@@ -281,6 +362,9 @@ Figure 52 - Challenge 7: Login Bender
 
 
 Figure 53 - A review left by bender on the Banana Juice product
+
+![Figure 53 - A review left by bender on the Banana Juice product](assets/lab2-owasp-juice-shop/figure-053-a-review-left-by-bender-on-the-banana-juice-product.png)
+
 
 
 
@@ -290,6 +374,9 @@ Figure 53 - A review left by bender on the Banana Juice product
 
 Figure 54 - Sql Injection
 
+![Figure 54 - Sql Injection](assets/lab2-owasp-juice-shop/figure-054-sql-injection.png)
+
+
 
 
 ### Proof of completion
@@ -298,11 +385,17 @@ Figure 54 - Sql Injection
 
 Figure 55 - Challenge Completed
 
+![Figure 55 - Challenge Completed](assets/lab2-owasp-juice-shop/figure-055-challenge-completed.png)
+
+
 
 
 
 
 Figure 56 - Logged in as Bender
+
+![Figure 56 - Logged in as Bender](assets/lab2-owasp-juice-shop/figure-056-logged-in-as-bender.png)
+
 
 ## Challenge 7 CIA Triad Impact
 
@@ -318,6 +411,9 @@ Figure 56 - Logged in as Bender
 
 Figure 57 - Challenge 8: (Change benders password to slurmCl4ssic)
 
+![Figure 57 - Challenge 8: (Change benders password to slurmCl4ssic)](assets/lab2-owasp-juice-shop/figure-057-challenge-8-change-benders-password-to-slurmcl4ssic.png)
+
+
 
 
 ### Step 1 Login as bender using a sql injection
@@ -325,6 +421,9 @@ Figure 57 - Challenge 8: (Change benders password to slurmCl4ssic)
 
 
 Figure 58 - Logged In as Bender
+
+![Figure 58 - Logged In as Bender](assets/lab2-owasp-juice-shop/figure-058-logged-in-as-bender.png)
+
 
 
 
@@ -334,17 +433,26 @@ Figure 58 - Logged In as Bender
 
 Figure 59 - Random Password Entered
 
+![Figure 59 - Random Password Entered](assets/lab2-owasp-juice-shop/figure-059-random-password-entered.png)
+
+
 
 
 
 
 Figure 60 - Login Attempt Caught
 
+![Figure 60 - Login Attempt Caught](assets/lab2-owasp-juice-shop/figure-060-login-attempt-caught.png)
+
+
 ### Step 3: copy the request into the repeater so it can be used again.
 
 
 
 Figure 61 - Login attempt is in the Repeater
+
+![Figure 61 - Login attempt is in the Repeater](assets/lab2-owasp-juice-shop/figure-061-login-attempt-is-in-the-repeater.png)
+
 
 
 
@@ -356,11 +464,17 @@ Figure 61 - Login attempt is in the Repeater
 
 Figure 62 - "Current" Field has been removed
 
+![Figure 62 - "Current" Field has been removed](assets/lab2-owasp-juice-shop/figure-062-current-field-has-been-removed.png)
+
+
 ### Proof of completion
 
 
 
 Figure 63 - Challenge Completed
+
+![Figure 63 - Challenge Completed](assets/lab2-owasp-juice-shop/figure-063-challenge-completed.png)
+
 
 
 
@@ -380,6 +494,9 @@ Proof password Changed
 
 Figure 64 - Save Password Box shows Updated Password
 
+![Figure 64 - Save Password Box shows Updated Password](assets/lab2-owasp-juice-shop/figure-064-save-password-box-shows-updated-password.png)
+
+
 
 
 ## Exercise 8 CIA Triad Impact
@@ -398,6 +515,9 @@ Figure 64 - Save Password Box shows Updated Password
 
 Figure 65 – Challenge 9: DOM XSS
 
+![Figure 65 – Challenge 9: DOM XSS](assets/lab2-owasp-juice-shop/figure-065-challenge-9-dom-xss.png)
+
+
 
 
 ### Step 1: Copy the “iframe” code
@@ -405,6 +525,9 @@ Figure 65 – Challenge 9: DOM XSS
 
 
 Figure 66 - Iframe Code Copied
+
+![Figure 66 - Iframe Code Copied](assets/lab2-owasp-juice-shop/figure-066-iframe-code-copied.png)
+
 
 
 
@@ -414,6 +537,9 @@ Figure 66 - Iframe Code Copied
 
 Figure 67 - Iframe Code Pasted in Search Bar
 
+![Figure 67 - Iframe Code Pasted in Search Bar](assets/lab2-owasp-juice-shop/figure-067-iframe-code-pasted-in-search-bar.png)
+
+
 
 
 ### Step 3: After you press enter a box saying xss should come up. This tells you the attack was successful
@@ -421,6 +547,9 @@ Figure 67 - Iframe Code Pasted in Search Bar
 
 
 Figure 68 - XSS Attack Output
+
+![Figure 68 - XSS Attack Output](assets/lab2-owasp-juice-shop/figure-068-xss-attack-output.png)
+
 
 
 
@@ -430,6 +559,9 @@ Notice how the search result is a large empty box
 
 Figure 118 - Empty search result box shown after submitting the payload
 
+![Figure 118 - Empty search result box shown after submitting the payload](assets/lab2-owasp-juice-shop/figure-118-empty-search-result-box-shown-after-submitting-the-payload.png)
+
+
 
 
 ### Proof of completion
@@ -437,6 +569,9 @@ Figure 118 - Empty search result box shown after submitting the payload
 
 
 Figure 69 - Challenge Completed
+
+![Figure 69 - Challenge Completed](assets/lab2-owasp-juice-shop/figure-069-challenge-completed.png)
+
 
 
 
@@ -454,6 +589,9 @@ Figure 69 - Challenge Completed
 
 Figure 70 - Challenge 10: Steal User Credentials
 
+![Figure 70 - Challenge 10: Steal User Credentials](assets/lab2-owasp-juice-shop/figure-070-challenge-10-steal-user-credentials.png)
+
+
 
 
 ### Step 1: In the search bar, do a union select of the user’s table. The page should give information saying that we don’t have the right number of columns
@@ -462,11 +600,17 @@ Figure 70 - Challenge 10: Steal User Credentials
 
 Figure 71- Union Select SQL Injection
 
+![Figure 71- Union Select SQL Injection](assets/lab2-owasp-juice-shop/figure-071-union-select-sql-injection.png)
+
+
 
 
 
 
 Figure 72- Page Showing the number of columns is incoreect
+
+![Figure 72- Page Showing the number of columns is incoreect](assets/lab2-owasp-juice-shop/figure-072-page-showing-the-number-of-columns-is-incoreect.png)
+
 
 ### Step 2: Find the correct number of columns by increasing the number of columns you are searching for
 
@@ -474,11 +618,17 @@ Figure 72- Page Showing the number of columns is incoreect
 
 Figure 73- Selecting 1 column
 
+![Figure 73- Selecting 1 column](assets/lab2-owasp-juice-shop/figure-073-selecting-1-column.png)
+
+
 
 
 
 
 Figure 74- Error Message Changed
+
+![Figure 74- Error Message Changed](assets/lab2-owasp-juice-shop/figure-074-error-message-changed.png)
+
 
 ### Step 3: Once you find the right number of columns, a page page containing all the details of a user should appear. 
 
@@ -486,11 +636,17 @@ Figure 74- Error Message Changed
 
 Figure 75- Selecting 9 Columns is the correct amount of Columns
 
+![Figure 75- Selecting 9 Columns is the correct amount of Columns](assets/lab2-owasp-juice-shop/figure-075-selecting-9-columns-is-the-correct-amount-of-columns.png)
+
+
 
 
 
 
 Figure 76 - Page showing user information
+
+![Figure 76 - Page showing user information](assets/lab2-owasp-juice-shop/figure-076-page-showing-user-information.png)
+
 
 ### Step 4: type a sql query in the url that targets id,password and email. This will return a list of user id’s, their emails and passwords
 
@@ -502,17 +658,26 @@ http://192.168.123.111:3000/rest/products/search?q=qwert”)) union select from 
 
 Figure 77- SQL Injection Targeting Email, ID and Password
 
+![Figure 77- SQL Injection Targeting Email, ID and Password](assets/lab2-owasp-juice-shop/figure-077-sql-injection-targeting-email-id-and-password.png)
+
+
 
 
 
 
 Figure 78 - Output of the SQL injection
 
+![Figure 78 - Output of the SQL injection](assets/lab2-owasp-juice-shop/figure-078-output-of-the-sql-injection.png)
+
+
 ### Proof of completion
 
 
 
 Figure 79 - Challenge Completed
+
+![Figure 79 - Challenge Completed](assets/lab2-owasp-juice-shop/figure-079-challenge-completed.png)
+
 
 
 
@@ -530,6 +695,9 @@ List of all completed challenges
 
 Figure 80 - Challenges
 
+![Figure 80 - Challenges](assets/lab2-owasp-juice-shop/figure-080-challenges.png)
+
+
 
 
 ## Reflection
@@ -543,5 +711,3 @@ Although Juice shop is not an effective tool in protecting user data, it is an e
 Strengths and weaknesses
 
 The gamified scoreboard shows instant confirmation when a challenge is completed, and each challenge is categorized based on not just the difficulty rating but the type of vulnerability that is being exploited which allows skills to be built progressively. Juice Shop is very exaggerated in its security design due real world applications not having simultaneous vulnerabilities without being discovered previously.
-
-

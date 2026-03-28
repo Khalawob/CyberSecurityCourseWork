@@ -39,9 +39,3 @@
 
 
 [10] Tenable, "Nessus Product Overview," Tenable Documentation, 2024. [Online]. Available: https://docs.tenable.com/nessus/Content/GettingStarted.htm
-
-
-
-
-
-

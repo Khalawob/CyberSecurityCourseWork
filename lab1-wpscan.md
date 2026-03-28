@@ -10,11 +10,17 @@ First, make a new user with the administrator role so that they can install plug
 
 Figure 1 - Create New User called Brian with password as Admin
 
+![Figure 1 - Create New User called Brian with password as Admin](assets/lab1-wpscan/figure-001-create-new-user-called-brian-with-password-as-admin.png)
+
+
 
 
 
 
 Figure 2 - Administartor Role
+
+![Figure 2 - Administartor Role](assets/lab1-wpscan/figure-002-administartor-role.png)
+
 
 
 
@@ -24,6 +30,9 @@ Install vulnerable plugins and themes which are going to be scanned with WPscan.
 
 Figure 4 - Vulnerable Theme
 
+![Figure 4 - Vulnerable Theme](assets/lab1-wpscan/figure-004-vulnerable-theme.png)
+
+
 
 
 Update WPscan so its database and capabilities are at peak performance
@@ -31,6 +40,9 @@ Update WPscan so its database and capabilities are at peak performance
 
 
 Figure 5 - WPscan Updated
+
+![Figure 5 - WPscan Updated](assets/lab1-wpscan/figure-005-wpscan-updated.png)
+
 
 
 
@@ -40,6 +52,9 @@ Connect the WPscan API key to wpscan so to access the database of vulnerabilitie
 
 Figure 6 - API Key
 
+![Figure 6 - API Key](assets/lab1-wpscan/figure-006-api-key.png)
+
+
 
 
 WPScan wordpress url enumerate -p (WPScan checks its database of vulnerabilities for the latest vulnerabilities and identifies plugins that have been installed.
@@ -47,6 +62,9 @@ WPScan wordpress url enumerate -p (WPScan checks its database of vulnerabilities
 
 
 Figure 7 - Output Page 1
+
+![Figure 7 - Output Page 1](assets/lab1-wpscan/figure-007-output-page-1.png)
+
 
 
 
@@ -56,11 +74,17 @@ This image shows the plugin installed and the number of vulnerabilities identifi
 
 Figure 8 - Identified Plugin Vulnerabilities
 
+![Figure 8 - Identified Plugin Vulnerabilities](assets/lab1-wpscan/figure-008-identified-plugin-vulnerabilities.png)
+
+
 
 
 
 
 Figure 9 - Identified Plugin Vulnerabilities page 2
+
+![Figure 9 - Identified Plugin Vulnerabilities page 2](assets/lab1-wpscan/figure-009-identified-plugin-vulnerabilities-page-2.png)
+
 
 
 
@@ -70,6 +94,9 @@ Figure 9 - Identified Plugin Vulnerabilities page 2
 
 Figure 10 - wpscan --url http://192.168.123.65 --enumerate vp,vt,tt
 
+![Figure 10 - wpscan --url http://192.168.123.65 --enumerate vp,vt,tt](assets/lab1-wpscan/figure-010-wpscan-url-http-192-168-123-65-enumerate-vp-vt-tt.png)
+
+
 
 
 The theme being used has been identified along with 1 vulnerability related to reflected cross site scripting
@@ -77,6 +104,9 @@ The theme being used has been identified along with 1 vulnerability related to r
 
 
 Figure 11 - wpscan --url http://192.168.123.65 --enumerate vp,vt,tt (Identified Theme and associated Vulnerabilities)
+
+![Figure 11 - wpscan --url http://192.168.123.65 --enumerate vp,vt,tt (Identified Theme and associated Vulnerabilities)](assets/lab1-wpscan/figure-011-wpscan-url-http-192-168-123-65-enumerate-vp-vt-tt-identified-theme-and-associate.png)
+
 
 
 
@@ -86,11 +116,17 @@ This Image also contains the plugins in use along with 26 vulnerabilities such a
 
 Figure 12 - wpscan --url http://192.168.123.65 --enumerate vp,vt,tt (Plugins and Vulnerabilities)
 
+![Figure 12 - wpscan --url http://192.168.123.65 --enumerate vp,vt,tt (Plugins and Vulnerabilities)](assets/lab1-wpscan/figure-012-wpscan-url-http-192-168-123-65-enumerate-vp-vt-tt-plugins-and-vulnerabilities.png)
+
+
 
 
 More plugin Vulnerabilities
 
 Figure 14 - WPscan plugin vulnerability page 3
+
+![Figure 14 - WPscan plugin vulnerability page 3](assets/lab1-wpscan/figure-014-wpscan-plugin-vulnerability-page-3.png)
+
 
 
 
@@ -100,6 +136,9 @@ This page contains the theme WordPress is using and the reflected cross site scr
 
 Figure 15- WPscan theme vulnerabilities
 
+![Figure 15- WPscan theme vulnerabilities](assets/lab1-wpscan/figure-015-wpscan-theme-vulnerabilities.png)
+
+
 
 
 (The command in Figure 16 attempts to brute force login to a account called “Brian” on WordPress using the list of passwords contained in passwords.txt
@@ -108,6 +147,9 @@ Figure 15- WPscan theme vulnerabilities
 
 Figure 16- wpscan --url http://192.168.123.65 --passwords /home/kali/Desktop/passwords.txt --usernames Brian
 
+![Figure 16- wpscan --url http://192.168.123.65 --passwords /home/kali/Desktop/passwords.txt --usernames Brian](assets/lab1-wpscan/figure-016-wpscan-url-http-192-168-123-65-passwords-home-kali-desktop-passwords-txt-usernam.png)
+
+
 
 
 The output shows that a valid combination of credentials was found saying “Username: Brian” and “Password: admin”
@@ -115,6 +157,9 @@ The output shows that a valid combination of credentials was found saying “Use
 
 
 Figure 17- Output of "wpscan --url http://192.168.123.65 --passwords /home/kali/Desktop/passwords.txt --usernames Brian"
+
+![Figure 17- Output of "wpscan --url http://192.168.123.65 --passwords /home/kali/Desktop/passwords.txt --usernames Brian"](assets/lab1-wpscan/figure-017-output-of-wpscan-url-http-192-168-123-65-passwords-home-kali-desktop-passwords-t.png)
+
 
 
 
@@ -125,6 +170,9 @@ wpscan --api-token hTaTcGaWxsPHhmEu0DEWtbe5ms9CIZf08MAVz8R7j6A --url http://192.
 
 
 Figure 116 - WPScan API-assisted vulnerability enumeration output
+
+![Figure 116 - WPScan API-assisted vulnerability enumeration output](assets/lab1-wpscan/figure-116-wpscan-api-assisted-vulnerability-enumeration-output.png)
+
 
 ## Security Implications
 
@@ -151,11 +199,17 @@ This section will show one of the exploits found using wpscan be exploited to sh
 
 Figure 18 - Vulnerability Description
 
+![Figure 18 - Vulnerability Description](assets/lab1-week1-further-learning/figure-018-vulnerability-description.png)
+
+
 ### Step 1: Go to the services page of the salon plugin
 
 
 
 Figure 19 - Services Section Of the Plugin
+
+![Figure 19 - Services Section Of the Plugin](assets/lab1-week1-further-learning/figure-019-services-section-of-the-plugin.png)
+
 
 
 
@@ -165,6 +219,9 @@ Figure 19 - Services Section Of the Plugin
 
 Figure 20 - Title Field
 
+![Figure 20 - Title Field](assets/lab1-week1-further-learning/figure-020-title-field.png)
+
+
 
 
 ### Step 3: Change the title from beard trim to &lt;img src=x onerror=alert(1)&gt;
@@ -173,11 +230,17 @@ Figure 20 - Title Field
 
 Figure 21- Beard Trim is the Title
 
+![Figure 21- Beard Trim is the Title](assets/lab1-week1-further-learning/figure-021-beard-trim-is-the-title.png)
+
+
 Title has been changed to &lt;img src=x onerror=alert(1)&gt;
 
 
 
 Figure 22 - Title Changed to Code
+
+![Figure 22 - Title Changed to Code](assets/lab1-week1-further-learning/figure-022-title-changed-to-code.png)
+
 
 
 
@@ -187,6 +250,9 @@ Figure 22 - Title Changed to Code
 
 Figure 23- Assistant section showing 2 Assistants
 
+![Figure 23- Assistant section showing 2 Assistants](assets/lab1-week1-further-learning/figure-023-assistant-section-showing-2-assistants.png)
+
+
 
 
 Click on limit reservations to the following services
@@ -194,6 +260,9 @@ Click on limit reservations to the following services
 
 
 Figure 24 - Limiting Reservations for Mario
+
+![Figure 24 - Limiting Reservations for Mario](assets/lab1-week1-further-learning/figure-024-limiting-reservations-for-mario.png)
+
 
 
 
@@ -203,11 +272,17 @@ Figure 24 - Limiting Reservations for Mario
 
 Figure 25 - Output of the XSS Attack
 
+![Figure 25 - Output of the XSS Attack](assets/lab1-week1-further-learning/figure-025-output-of-the-xss-attack.png)
+
+
 
 
 
 
 Figure 26 - Image Icon
+
+![Figure 26 - Image Icon](assets/lab1-week1-further-learning/figure-026-image-icon.png)
+
 
 
 
@@ -220,19 +295,3 @@ This lab has taught me where WordPress vulnerabilities are discovered in the for
 Strengths and Weaknesses
 
 The strengths of WPscan is that the API Key provides real time vulnerability data instead of relying on outdated local signatures. The output of vulnerabilities provide CVE Refrences and version patches which map directly to actions to patch these explots.  The limitations are that WPscan only works with wordpress. Because it uses a database, it is not good for locating zero-day exploits and the API can only be used 25 times a day. Bruteforcing can take time if the password is strong.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

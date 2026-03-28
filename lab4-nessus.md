@@ -8,6 +8,9 @@ Installing Nessus
 
 Figure 136 - Nessus installation process shown in the terminal
 
+![Figure 136 - Nessus installation process shown in the terminal](assets/lab4-nessus/figure-136-nessus-installation-process-shown-in-the-terminal.png)
+
+
 
 
 Nessus initializing
@@ -18,11 +21,17 @@ Nessus initializing
 
 Figure 137 - Nessus initialization page
 
+![Figure 137 - Nessus initialization page](assets/lab4-nessus/figure-137-nessus-initialization-page.png)
+
+
 Wordpress Configuration
 
 
 
 Figure 138 - WordPress scan target configuration in Nessus
+
+![Figure 138 - WordPress scan target configuration in Nessus](assets/lab4-nessus/figure-138-wordpress-scan-target-configuration-in-nessus.png)
+
 
 
 
@@ -32,6 +41,9 @@ Scan configuration
 
 Figure 139 - WordPress scan type configuration in Nessus
 
+![Figure 139 - WordPress scan type configuration in Nessus](assets/lab4-nessus/figure-139-wordpress-scan-type-configuration-in-nessus.png)
+
+
 
 
 Scan Type Configuration
@@ -39,6 +51,9 @@ Scan Type Configuration
 
 
 Figure 140 - WordPress scan plugin settings in Nessus
+
+![Figure 140 - WordPress scan plugin settings in Nessus](assets/lab4-nessus/figure-140-wordpress-scan-plugin-settings-in-nessus.png)
+
 
 ## WordPress Report
 
@@ -63,9 +78,15 @@ I did a network scan of the WordPress server using it’s IP address and scanned
 
 Figure 141 - Tenable Nessus WordPress report cover page
 
+![Figure 141 - Tenable Nessus WordPress report cover page](assets/lab4-nessus/figure-141-tenable-nessus-wordpress-report-cover-page.png)
+
+
 
 
 Figure 142 - Nessus WordPress vulnerability summary dashboard
+
+![Figure 142 - Nessus WordPress vulnerability summary dashboard](assets/lab4-nessus/figure-142-nessus-wordpress-vulnerability-summary-dashboard.png)
+
 
 
 
@@ -89,6 +110,9 @@ MSC Gateway Configuration
 
 Figure 143 - MSC Gateway target configuration in Nessus
 
+![Figure 143 - MSC Gateway target configuration in Nessus](assets/lab4-nessus/figure-143-msc-gateway-target-configuration-in-nessus.png)
+
+
 
 
 Ubuntu Gateway Scan Type Configuration
@@ -97,6 +121,9 @@ Ubuntu Gateway Scan Type Configuration
 
 Figure 144 - Ubuntu MSC Gateway scan type configuration in Nessus
 
+![Figure 144 - Ubuntu MSC Gateway scan type configuration in Nessus](assets/lab4-nessus/figure-144-ubuntu-msc-gateway-scan-type-configuration-in-nessus.png)
+
+
 
 
 Ubuntu MSC Gateway Scan type 
@@ -104,6 +131,9 @@ Ubuntu MSC Gateway Scan type
 
 
 Figure 145 - Ubuntu MSC Gateway plugin settings in Nessus
+
+![Figure 145 - Ubuntu MSC Gateway plugin settings in Nessus](assets/lab4-nessus/figure-145-ubuntu-msc-gateway-plugin-settings-in-nessus.png)
+
 
 ## MSC Gateway report
 
@@ -119,9 +149,15 @@ I did a network scan of the Gateway server using it’s IP address and scanned f
 
 Figure 146 - Tenable Nessus MSC Gateway report cover page
 
+![Figure 146 - Tenable Nessus MSC Gateway report cover page](assets/lab4-nessus/figure-146-tenable-nessus-msc-gateway-report-cover-page.png)
+
+
 
 
 Figure 147 - Nessus MSC Gateway vulnerability summary dashboard
+
+![Figure 147 - Nessus MSC Gateway vulnerability summary dashboard](assets/lab4-nessus/figure-147-nessus-msc-gateway-vulnerability-summary-dashboard.png)
+
 
 ## Analysis and Comparison of both reports
 
@@ -140,5 +176,3 @@ This lab has taught how to use Nessus to identify local and remote vulnerabiliti
 Strengths and Weaknesses
 
 Professional reports can be generated and include CVSS scores and risk level which is essential for prioritizing action based on risk. The plugin architecture means the vulnerability data is constantly being updated and matching findings with the latest information. Nessus does not provide mitigation strategies within the report and must be researched separately on the website. When setting up Nessus downloading and compiling the plugins can take a very long time and Nessus scans can’t be used until the plugins have finished compiling
-
-
